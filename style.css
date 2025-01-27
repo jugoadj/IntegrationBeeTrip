@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: ;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 270px;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header .badge {
+    display: inline-block;
+    background-color: #ecebff;
+    color: #7d67f0;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Content Styles */
+.content h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+.content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Progress Section */
+.progress {
+    display: flex;
+
+}
+.progress-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.progress span {
+    font-size: 17px;
+    color: #555;
+}
+
+.progress img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+.invite-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 17px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.invite-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    border: solid;
+    border-width: 1px;
+    border-color: #797979;
+    padding: 17px 15px;
+    border-radius: 30px;
+    
+}
+
+.footer img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.stacked-icons {
+    display: flex;
+    position: relative;
+}
+
+.stacked-icons img {
+    width: 20px; /* Taille des icônes */
+    height: 20px;
+    border-radius: 50%; /* Rond pour les avatars */
+    border: 2px solid #fff; /* Bordure blanche autour des icônes */
+    margin-left: -10px; /* Superposition complète (ajustez si nécessaire) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre */
+}
+
+.stacked-icons img:first-child {
+    margin-left: 0; /* Pas de décalage pour la première icône */
+}
+
+.attachments{
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+.comments{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
