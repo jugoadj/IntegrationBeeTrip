@@ -10,7 +10,6 @@ body {
     margin: 0;
 }
 
-/* Card Styles */
 .card {
     background-color: #fff;
     border-radius: 12px;
@@ -19,8 +18,7 @@ body {
     padding: 20px;
 }
 
-/* Header Styles */
-.header .badge {
+.header .UserInt {
     display: inline-block;
     background-color: #ecebff;
     color: #7d67f0;
@@ -30,7 +28,6 @@ body {
     font-weight: bold;
 }
 
-/* Content Styles */
 .content h2 {
     font-size: 20px;
     color: #333;
@@ -43,12 +40,11 @@ body {
     line-height: 1.6;
 }
 
-/* Progress Section */
 .progress {
     display: flex;
 
 }
-.progress-section {
+.section3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +63,7 @@ body {
 }
 
 .invite-button {
-    background-color: #007bff;
+    background-color: #2f91f9;
     color: #fff;
     padding: 10px 17px;
     font-size: 14px;
@@ -77,10 +73,9 @@ body {
 }
 
 .invite-button:hover {
-    background-color: #0056b3;
+    background-color: #278fff;
 }
 
-/* Footer Styles */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -90,7 +85,7 @@ body {
     border: solid;
     border-width: 1px;
     border-color: #797979;
-    padding: 17px 15px;
+    padding: 12px 15px;
     border-radius: 30px;
     
 }
@@ -100,27 +95,28 @@ body {
     height: 16px;
     margin-right: 5px;
 }
-.actions {
+.right_icons {
     display: flex;
     align-items: center;
 }
 
-.stacked-icons {
+.iconsRight {
     display: flex;
     position: relative;
+    padding-right: 10px;
 }
 
-.stacked-icons img {
-    width: 20px; /* Taille des icônes */
-    height: 20px;
-    border-radius: 50%; /* Rond pour les avatars */
-    border: 2px solid #fff; /* Bordure blanche autour des icônes */
-    margin-left: -10px; /* Superposition complète (ajustez si nécessaire) */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre */
+.iconsRight img {
+    width: 23px; 
+    height: 23px;
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+    margin-left: -12px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.stacked-icons img:first-child {
-    margin-left: 0; /* Pas de décalage pour la première icône */
+.iconsRight img:first-child {
+    margin-left: 0;
 }
 
 .attachments{
